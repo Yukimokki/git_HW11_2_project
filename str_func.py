@@ -1,5 +1,5 @@
-def caps_lock():
-    """принимает текст, возвращает  прописные буквы"""
-    return input().upper()
+def caps_lock(text):
+    """ принимает строку, возвращает прописные буквы"""
+    return text.upper()
 
 #print(caps_lock())
